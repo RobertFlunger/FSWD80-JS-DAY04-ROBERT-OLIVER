@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style type="text/css" media="screen">
+		body {
+			background: #E9F0FA;
+		}
+		.hotel-element {
+			width: 25%;
+			background: #003580;
+			justify-content: space-around;
+			padding: 0 25px 20px;
+			border: 1px solid black;
+			border-radius: 10px;
+		}
+		.wrapper {
+			display: flex;
+			justify-content: space-around;
+		}	
+		.inputfield {
+			margin-bottom: 10px;
+		}
+		h1 {
+			text-align: center;
+			color: black;
+			text-shadow: 1px 1px black;
+		}
+		h3 {
+			color: white;
+			text-shadow: 1px white;
+		}
+	</style>
+</head>
+<body>
+
+	<h1>Cool Hotels</h1>
+
+
+<div class="wrapper">
+<div class="hotel-element">
+	<h3>Four Seasons</h3>
+	<input type="text" name="hotel-nights" id="fourseasons-nightsToStay" placeholder="Enter nights of stay (1-10)" class="inputfield">
+	<input type="submit" id="subButton1" value="Submit">
+	<div id="first"></div>
+</div>
+
+<!-- 
+onclick="return info()" -->
+<div class="hotel-element">
+	<h3>Motel One</h3>
+	<input type="text" name="hotel-nights2" id="motelone-nightsToStay" placeholder="Enter nights of stay (1-10)" class="inputfield">
+	<input type="submit" id="subButton2" value="Submit">
+	<div id="second"></div>
+</div>
+
+<div class="hotel-element">
+	<h3>Hilton</h3>
+	<input type="text" name="hotel-nights3" id="hilton-nightsToStay" placeholder="Enter nights of stay (1-10)"
+	class="inputfield">
+	<input type="submit" id="subButton3" value="Submit">
+	<div id="third"></div>
+</div>
+
+</div>
+
+	<script src="intermediate.js">
+		
+	</script>
+	
+</body>
+</html>
